@@ -1,16 +1,26 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link href="style.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
     <title>The Basic Language of the Web: HTML</title>
   </head>
 
-  <body class="container">
-    <div>
-    <header class="main-header">
+  <body>
+<!--     
+    <h1>The Basic Language of the Web: HTML</h1>
+    <h2>The Basic Language of the Web: HTML</h2>
+    <h3>The Basic Language of the Web: HTML</h3>
+    <h4>The Basic Language of the Web: HTML</h4>
+    <h5>The Basic Language of the Web: HTML</h5>
+    <h6>The Basic Language of the Web: HTML</h6>
+     -->
+    <div class="container">
+     <header class="main-header">
       <h1>📘 The Code Magazine</h1>
+
       <nav>
+         <!-- <strong>This is the navigation</strong> -->
         <a href="blog.html">Blog</a>
         <a href="#">Challenge</a>
         <a href="#">flexbox</a>
@@ -26,7 +36,7 @@
           alt=" Headshot of Laura Jones"
           width="50"
           height="50"
-        />
+        >
 
         <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
@@ -36,7 +46,7 @@
           width="500"
           height="200"
           class="post-img"
-        />
+        >
         <button>❤️Like</button>
       </header>
       <p>
@@ -81,7 +91,8 @@
         web. Here are 5 of them:
       </p>
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">
+          To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Worpress or Wix
@@ -96,24 +107,30 @@
       <h4>Related posts</h4>
       <ul class="related" >
         <li>
-          <img src="img/related-1.jpg" width="75" height="75" />
+          <img src="img/related-1.jpg"
+          alt="Person programming" 
+          width="75" 
+          height="75">
           <a href="img/related-1.jpg" target="_blank"
-            >How to learn Web development</a
-          >
+            >How to learn Web development</a>
+
           <p class="related-author">By Jonas Schmedtman</p>
         </li>
         <li>
-          <img src="img/related-2.jpg" width="75" height="75" />
+          <img src="img/related-2.jpg"
+          alt="Lightning"
+           width="75" height="75">
           <a href="img/related-2.jpg" target="_blank">
             The Unknown Power of CSS</a
           >
           <p>By Jim Dillon</p>
         </li>
         <li>
-          <img src="img/related-3.jpg" width="75" height="75" />
+          <img src="img/related-3.jpg"
+          alt="Javascript on the Screen" 
+          width="75" height="75">
           <a href="img/related-3.jpg" target="_blank">
-            Why Javascript is Awesome</a
-          >
+            Why Javascript is Awesome</a>
           <p>By Matilda</p>
         </li>
       </ul>
